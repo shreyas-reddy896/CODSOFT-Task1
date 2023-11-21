@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+    opacity: 0.9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+  }
+  .hero {
+    min-height:100vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    position: relative;
+   }
+  .flex{
+    display: flex;
+  }
+  .justify-between{
+    justify-content: space-between;
+  }
+  .navbar{
+    display: flex;
+    height: 67px;
+  }
+  .navbar li{
+    list-style:none;
+    margin:0 20px;
+  }
+  .items-center{
+    align-items: center;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .navbar a:hover {
+    background-color: #555;
+    text-decoration: none; 
+    color: #fff; 
+  }
+  .navbar a{
+    text-decoration: none;
+    color: black;
+  }
+  .navbar a:visited {
+    text-decoration: none; 
+  }
+  
+  .navbar a:focus, .navbar a:active {
+    text-decoration: none; 
+  }
+  .row{
+    display:flex;
+    height:88vh;
+    align-items: center;
+    color:rgba(255, 255, 255, 0.895);
+  }
+  .col{
+    flex-basis: 50%;
+  }
+  button{
+   width:180px;
+   color:#000;
+   padding: 12px 0;
+   font-size: 12px;
+   background: #fff;
+   border: 0;
+   border-radius: 20px;
+   outline: none;
+   margin-top: 30px;
+  }
+
+  button:hover{
+  background-color: #333;
+  color: white; 
+  }
+  .features{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 23px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px; 
+    background-position: center;
+    background-size: cover;
+  }
+  .card1{
+    background-image: url("featured.webp");
+  }
+  .card2{
+    background-image: url("apparel.jpg");
+  }
+  .card3{
+    background-image: url("latest.jpeg");
+  }
+  .card4{
+    background-image: url("equipment.webp");
+  }
+  .features:hover {
+    filter: brightness(70%);
+  }
+  footer{
+    background-color: black;
+  }
+  .container{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  .icons{
+    display:flex;
+    justify-content:center;
+  }
+  .icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 12px;
+    border-radius: 60%;
+  }
+  .icons a i{
+    font-size: 2.1em;
+    color: #000;
+    opacity: 0.7;
+  }
+  .icons a:hover i{
+    color:#fff;
+    transition: 3s;
+  }
+  .footernav{
+    margin: 20px;
+  }
+  .footernav ul{
+    display: flex;
+    justify-content: center;
+  }
+  .footernav ul li a{
+   color: #fff;
+   margin: 22px;
+   text-decoration: none;
+   font-size: 1.2em;
+   transition: 0.7s;
+   opacity: 0.5;
+  }
+  .footernav ul li a:hover{
+    opacity: 1.0;
+  }
+  .footerbot{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  .footerbot p{
+    color: white;
+  }
